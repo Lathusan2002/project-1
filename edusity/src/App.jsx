@@ -4,6 +4,8 @@ import Hero from './Components/Hero/Hero'
 import Program from './Components/Program/Program'
 import Title from './Components/Title/Title'
 import About from './Components/About/About'
+import Campus from './Components/Campus/Campus'
+import Testimonials from './Components/Testimonials/Testimonials'
 
 
 
@@ -16,6 +18,11 @@ const App = () => {
     <Title subTitle="Our PROGRAM" title="What We Offer" />
       <Program/>
       <About/>
+      <Title subTitle="Gallery" title="Campus photos" />
+      <Campus/>
+      <Title subTitle="Testimonials" title="What Students Says" />
+      <Title subTitle="Contact us" title="Get in Touch" />
+      <Testimonials/>
       </div>
     </div>
   )
